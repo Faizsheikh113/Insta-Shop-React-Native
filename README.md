@@ -1,79 +1,139 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Insta Shop - React Native Ecommerce App
+
+A modern ecommerce mobile application built using React Native with clean UI, smooth navigation, scalable architecture, and responsive design.
+
+Built with:
+
+* React Native
+* JavaScript
+* Redux Toolkit
+* React Navigation
+* REST APIs
+* Modern UI/UX
+
+---
+
+# Features
+
+* Beautiful onboarding screens
+* Authentication flow
+* Home dashboard with categories
+* Product listing
+* Product detail screen
+* Shopping cart
+* Wishlist support
+* Profile section
+* Responsive UI
+* Android support
+
+---
+
+# App Screens
+
+## Authentication & Onboarding
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7f39498b-3a4f-47da-857b-33c1ddef23a5" width="250" />
+  <img src="https://github.com/user-attachments/assets/00453fca-4984-4ea5-adcd-278fc4554081" width="250" />
+  <img src="https://github.com/user-attachments/assets/79c7b4f8-f46e-4465-8400-e07004daf23b" width="250" />
+</p>
+
+---
+
+## Home & Product Browsing
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2d6a29ff-1fe6-493f-9ec5-f9217bbbe9b6" width="250" />
+  <img src="https://github.com/user-attachments/assets/ecd28f7e-5b9f-4023-99d4-82478be3d914" width="250" />
+  <img src="https://github.com/user-attachments/assets/6b42252e-7006-4e51-8256-a30c855c9cee" width="250" />
+</p>
+
+---
+
+## Product Details & Cart
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/88e7864e-1651-4ea9-ba37-b862d8065097" width="250" />
+  <img src="https://github.com/user-attachments/assets/d3c03e61-3e0a-4de3-9ab4-26f58acae07d" width="250" />
+  <img src="https://github.com/user-attachments/assets/fecbe9e5-79b7-4915-992b-90f81cf71af4" width="250" />
+</p>
+
+---
+
+## User Profile
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d902fed6-1653-4833-a348-5f877bf7e505" width="250" />
+</p>
+
+---
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
-
-## Step 1: Start the Metro Server
-
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
+## Clone Repository
 
 ```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
+git clone <your-repository-url>
 ```
 
-## Step 2: Start your Application
+---
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
+## Install Dependencies
 
 ```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
+npm install
 ```
 
-### For iOS
+---
+
+## Start Metro Server
 
 ```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
+npx react-native start
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+---
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+## Run Android App
 
-## Step 3: Modifying your App
+```bash
+npx react-native run-android
+```
 
-Now that you have successfully run the app, let's modify it.
+---
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+# Project Structure
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+```text
+src/
+ ├── components
+ ├── screens
+ ├── navigation
+ ├── redux
+ ├── services
+ ├── utils
+ └── assets
+```
 
-## Congratulations! :tada:
+---
 
-You've successfully run and modified your React Native App. :partying_face:
+# Future Improvements
 
-### Now what?
+* Payment gateway integration
+* Order tracking
+* Push notifications
+* Dark mode
+* Backend integration
+* Performance optimization
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+---
 
-# Troubleshooting
+# Author
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+Faiz Sheikh
 
-# Learn More
+---
 
-To learn more about React Native, take a look at the following resources:
+# License
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+This project is licensed for learning and portfolio purposes.
